@@ -1,0 +1,19 @@
+:root{
+	--primary-color: #1b1c1e;
+	--secondary-color: #fefce8;
+	--third-color: #2c2c2c;
+	--highlight-1:  #9c7708;
+}
+
+body.dark {
+	--primary-color: #fefce8;
+	--secondary-color: #1b1c1e;
+	--third-color: #E1D9D1;
+	--highlight-1: #bc8314; 
+} 
+
+.body-container {
+	padding: 50px;
+	background: var(--primary-color);
+	transition: all 0.3s ease-in-out;
+}

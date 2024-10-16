@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Personal Portfolio</title>
+	<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="assets/styles.css">
+	<link rel="stylesheet" href="assets/transition.css">
+	<link rel="stylesheet" href="assets/responsive.css">
+	<link rel="stylesheet" href="assets/light.css">
+	<script src="https://kit.fontawesome.com/adbe1d2499.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="social-2">
+			<a href="https://www.linkedin.com/in/john-vianney-jandayan-b04584267/"><i class='bx bxl-linkedin'></i></a>
+			<a href="https://www.instagram.com/jandy_jv/"><i class='bx bxl-instagram'></i></a>
+			<a href="https://github.com/SopradicCoder"><i class='bx bxl-github'></i></a>
+			<a href="https://www.facebook.com/john.jandy.1"><i class='bx bxl-facebook-circle'></i></a>
+	</div>	
+	<div class="navbar">
+		<div class="logo-container">
+			<img class="logo" src="assets/Logo.svg" alt="JVJ Logo">
+		</div>
+		<div class="navlinks">    
+				<a href="#home" class="home">HOME</a>
+				<a href="#about">ABOUT</a>
+				<a href="#services">SERVICES</a>
+				<a href="#portfolio">PORTFOLIO</a>
+				<a href="#contact">CONTACT</a>
+		</div>        
+			<div class="toggle">
+				<div class="inner-circle"></div>
+			</div>	
+	</div>
+	<div class="trans">	
+		<section id="home">
+			<div class="header">
+				<div class="title">
+					<h2 class="titled">Salutations,</h2>
+					<h1 class="titled">I'm <span style="color: #bc8314">John</span> Jandayan</h1>
+					<p class="subtitle"><b>This is my official portfolio showcasing projects related to programming.</b></p>
+					<div class="phone-text">
+						<p class="subtitle-phone"><b>This is my official portfolio showcasing my projects.</b></p>    
+					</div> 
+				</div>   
+				<div class="image-container">
+					<img id="bg" class="bg" src="assets/profile/bg.svg" alt="bg">
+					<img id="pfp" class="image-1" src="assets/profile/pfp.png" alt="pfp">
+				</div>
+				<div class="social">
+					<a href="https://www.linkedin.com/in/john-vianney-jandayan-b04584267/"><i class='bx bxl-linkedin'></i></a>
+					<a href="https://www.instagram.com/jandy_jv/"><i class='bx bxl-instagram'></i></a>
+					<a href="https://github.com/SopradicCoder"><i class='bx bxl-github'></i></a>
+					<a href="https://www.facebook.com/john.jandy.1"><i class='bx bxl-facebook-circle'></i></a>
+				</div>	
+			</div>
+		</section>
+		<div class="compatibility">
+			<img class="phone-pfp" src="assets/profile/phone-pfp.png">
+		</div>        	   
+		<section class="body-container" id="about">
+			<div clas="row-2">
+				<div class="phone-col">
+					<h1 class="titled-3">ABOUT ME</h1>
+					<p class="paragraph-2">I'm John Vianney Jandayan, an aspiring Computer Scientist currently enrolled in Caraga State University.</p><br>
+					<h1 class="titled-7">Skills</h1>
+					<div class="tab-contents-2">
+						<ul>
+							<li><span>Machine Learning</span><br>Designing Web/App Interfaces</li>
+							<li><span>Software Development</span><br>Building PC/Mobile Software</li>   
+							<li><span>Digital Media</span><br>Video Editing</li><br>    
+						</ul>
+					</div>
+					<h1 class="titled-7">Experience</h1>
+					<div class="tab-contents-2">
+						<ul>
+							<li><span>2028 - 2029</span><br>Middle Software Developer at Xeno Tech</li> 
+							<li><span>2027 - 2028</span><br>Junior Software Developer at Verizon’s Inc.</li><br>    
+						</ul>
+					</div>
+					<h1 class="titled-7">Education</h1>
+					<div class="tab-contents-2">
+						<ul>
+							<li><span>2029</span><br>MSCS from MSU-IIT</li> 
+							<li><span>2027</span><br>BSCS from Caraga State Unviersity</li> 
+						</ul>
+					</div>
+				</div> 
+			</div>  
+			<div class="row">  
+				<div class="about-col-1">
+					<img src="assets/profile/img1.png">
+				</div>	
+				<div class="about-col-2"></div>
+					<h1 class="titled-3">ABOUT ME</h1>
+					<p class="paragraph">I'm John Vianney Jandayan, an aspiring Computer Scientist currently enrolled in Caraga State University.</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Machine Learning</span><br>Designing Web/App Interfaces</li>
+						<li><span>Software Development</span><br>Building PC/Mobile Software</li>	
+						<li><span>Digital Media</span><br>Video Editing</li>	
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2028 - 2029</span><br>Middle Software Developer at Xeno Tech</li>	
+						<li><span>2027 - 2028</span><br>Junior Software Developer at Verizon’s Inc.</li>	
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2029</span><br>MSCS from MSU-IIT</li>	
+						<li><span>2027</span><br>BSCS from Caraga State Unviersity</li>	
+					</ul>
+				</div>					
+			</div>
+		</section>
+		<section class="body-container" id="services">
+			<div class="title-2">
+				<h1 class="titled-2">SERVICES</h1>
+				<div class="services-list">
+					<div>
+						<i class="fa-solid fa-robot"></i>
+						<h2>AI</h2>
+						<p>Currently in progress.</p>
+						<a href="#">learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-computer"></i>
+						<h2>Machine Learning</h2>
+						<p>Utilize Python for Machine Learning.</p>
+						<a href="#">learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-gears"></i>
+						<h2>Programming</h2>
+						<p>I develop robust and scalable programs to meet your specific need. </p>
+						<a href="#">learn more</a>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<section class="body-container" id="portfolio">
+			<div class="title-2">
+				<h1 class="titled-2">PORTFOLIO</h1>  
+				<div class="work-list">
+					<div class="work">
+						<img class="image-container-3" src="assets/work/work1.jpg">
+						<div class="layer">
+							<h3>Kinemacalc</h3>
+							<p>A simple one-dimensional Kinematics calculator coded on Python.</p>
+							<a href="https://github.com/SopradicCoder/Kinemacalc"><i class="fas fa-external-link-alt"></i></a>
+						</div>	
+					</div>
+					<div class="work">
+						<img class="image-container-3" src="assets/work/work3.jpg">
+						<div class="layer">
+							<h3>Trial Python Calculator</h3>
+							<p>My first Python Code.</p>
+							<a href="https://github.com/SopradicCoder/Trial-Python-Calculator/blob/main/calculator.py"><i class="fas fa-external-link-alt"></i></a>
+						</div>	
+					</div>		        				
+				</div>
+				<a href="#" class="sm">See More</a>
+			</div>		       	
+		</section>
+		<section class="body-container" id="contact">
+			<div class="row-3">
+				<div class="contact-left">
+					<h1 class="titled-4">CONTACT</h1>
+					<p><i class="fas fa-paper-plane"></i> johnvjandayan@gmail.com</p>
+					<p><i class="fas fa-phone-square-alt"></i> 0995-396-7809</p>
+					<a href="assets/(just a dummy)my-cv.pdf" download class="sm low-b">Download CV</a>   
+				</div>
+				<div class="contact-right">
+					<form>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="sm sb">Submit</button>
+					</form>
+				</div>		
+			</div>
+		</section>
+	</div>    
+	<script>
+		const body = document.querySelector("body"),
+			toggle = document.querySelector(".toggle");
+
+		toggle.addEventListener("click", () => {
+			body.classList.toggle("dark")
+		});
+
+		toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+
+		localStorage.setItem("theme", "dark");
+		let localData = localStorage.getItem("theme");
+
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");		
+
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+	<script>
+	function updateImageVisibility() {
+		var img = document.getElementById("bg");
+
+		if (window.innerWidth <= 1200) {
+			img.style.display = "none";
+		} else {
+			img.style.display = "block";
+		}
+	}
+
+	updateImageVisibility();
+
+	window.addEventListener('resize', updateImageVisibility);
+
+	</script>
+	<script>
+
+	function updateImageSrc() {
+		var img = document.getElementById("pfp");
+
+		if (window.innerWidth <= 1200) {
+			img.src = "assets/profile/phone-pfp.png";
+		} else {
+			img.src = "assets/profile/pfp.png";
+		}
+	}
+
+	updateImageSrc();
+
+	window.addEventListener('resize', updateImageSrc);
+
+	</script>
+</body>
+</html>

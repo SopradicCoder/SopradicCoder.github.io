@@ -1,0 +1,365 @@
+@media screen and (max-width: 1000px) {
+    #pfp {
+    	transition: none;
+    }
+
+    .image-1 {
+		transition: none;
+	}	
+
+	.image-container:hover .bg {
+		bottom: 0px;
+	}
+
+	.image-container:hover .image-1 {
+		left: 0px;
+	}
+
+    .body-container {
+        position: relative;
+        display: flex;
+    }
+
+    .header {
+    	width: auto;
+    	background-image: url(assets/profile/phone-pfp.png);
+    	display: grid;
+    }
+
+	.image-container {
+	    display: none;
+	    flex-direction: column;
+	}
+
+	.about-col-1 img {
+	    border-radius: 15px;
+	    height: 200px;
+	    position: absolute;
+	    display: flex;
+	    padding-left: 100px;
+	}
+
+	.image-container img{
+	    height: 0px;
+	    bottom: 0;
+	    left: 0;
+	    display: none;
+	    padding-left: 0px;
+	}
+
+    .navlinks {
+    	display: none;
+    }
+
+    .row {
+    	display: none;
+    }
+
+    .row-2 {
+	    display: grid;
+	}
+
+    .title {
+	    top: 30%;
+	    color: var(--secondary-color);
+	    text-align: left;
+	    transition: all 0.3s ease-in-out;
+	    right: 0px;
+	}
+
+    p.subtitle {
+		display: none;
+	}
+
+	span.subititle {
+		color: #bc8314;
+	}
+
+	h1.titled {
+		line-height: 55px;
+		font-size: 20pt;
+		color: var(--secondary-color);
+		transition: all 0.3s ease-in-out;
+	}
+
+	h2.titled {
+		line-height: 55px;
+		font-size: 15pt;
+		color: var(--secondary-color);
+		transition: all 0.3s ease-in-out;
+	}
+
+	h1.titled-3 {
+	    font-size: 30pt;
+	    background: linear-gradient(-541deg, #FFD700, #bc8314, #422006);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	    transition: all 0.3s ease-in-out;
+	    padding-left: 100px;
+	}
+
+	h1.titled-7 {
+	    font-size: 20pt;
+	    background: linear-gradient(-541deg, #FFD700, #bc8314, #422006);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	    transition: all 0.3s ease-in-out;
+	    padding-left: 120px;
+	}
+
+	.social {
+	    display: none;
+	    position: relative;
+	    flex-wrap: wrap;
+	    margin-top: 1000px;
+	    gap: 1.4rem;
+	}
+
+	.social a {
+	    display: none;
+	    place-items: center;
+	    text-decoration: none;
+	    color: #bc8314;
+	    font-size: 1.5rem;
+	    border: 1.6px solid #bc8314;
+	    border-radius: 50%;
+	    padding: 0.39rem;
+	    text-align: center;
+	}
+
+	.social a:hover {
+	    color: #fff;
+	    background-color: #bc8314;
+	    box-shadow: 0 0 20px #bc8314;
+	    transition: all .3s ease-in-out;
+	}
+
+	.paragraph-2 {
+	    color: var(--secondary-color);
+	    font-size: 13pt;
+	    transition: all 0.3s ease-in-out;
+	    padding-left: 100px;
+	    min-width:500px;
+  		max-width:2000px;
+ 	}
+
+ 	.paragraph-3 {
+	    color: var(--secondary-color);
+	    font-size: 13pt;
+	    transition: all 0.3s ease-in-out;
+	    padding-left: 120px;
+	    min-width:500px;
+  		max-width:2000px;
+ 	}
+
+	body {
+		background: var(--primary-color);
+		transition: all .3s ease-in-out;
+	}
+
+	.about-col-1 {
+	    display: none;
+	}
+
+	.about-col-2 {
+    	display: none;
+	}
+
+	#about	{
+		height: 1000px;
+	}
+
+	.social-2 {
+	    display: flex;
+	    top: 0;
+	    margin-top: 87vh;
+	    margin-bottom: 34vh;
+	    justify-content: center;
+	    left: 0;
+   		right: 0;
+   		padding: 25px 10px 25px 0px;
+	    background-color: var(--primary-color);
+	    transition: all 0.3s ease-in-out;
+	    position: fixed;
+	    z-index: 100;
+	    flex-wrap: wrap;
+	    gap: 1.4rem;
+	}
+
+	.social-2 a {
+	    display: grid;
+	    place-items: center;
+	    text-decoration: none;
+	    color: #bc8314;
+	    font-size: 1.5rem;
+	    border: 1.6px solid #bc8314;
+	    border-radius: 50%;
+	    padding: 0.39rem;
+	    text-align: center;
+	}
+
+	.social-2 a:hover {
+	    color: #fff;
+	    background-color: #bc8314;
+	    box-shadow: 0 0 20px #bc8314;
+	    transition: all .3s ease-in-out;
+	}
+
+	footer {
+		background: var(--primary-color);
+		align-items: center;
+	}
+
+	.phone-col {
+		display: grid;
+	}
+
+	.compatibility {
+   	 	display: flex;
+   	 	position: relative;
+   	 	height: 500px;
+   	 	padding-left: 60px;
+	}
+
+	.phone-text {
+    	display: flex;
+    	position: relative;
+	}
+
+	p.subtitle-phone {
+		color: var(--secondary-color);
+		text-overflow: ellipsis;
+		min-width:2000px;
+  		max-width:9000px;
+		transition: all 0.3s ease-in-out;
+	}
+	.contact-right {
+	    padding-left: 100px;
+	}
+
+	.tab-contents-2 ul li {
+	    list-style: none;
+	    margin: 10px 0;
+	    padding-left: 120px;
+	    color: var(--secondary-color);
+	    transition: all 0.3s ease-in-out;
+	}
+
+	.tab-contents-2 ul li span{
+	    color: #bc8314;
+	    font-size: 15px;
+	    font-weight: bold;
+	}
+}
+
+
+@media screen and (max-width: 1200px) {
+    #bg {
+        display: none;
+    }
+
+    .body-container {
+        position: relative;
+        display: flex;
+    }
+
+    .header {
+    	width: 100%;
+    }
+
+	.image-container {
+	    padding: 0px 900px 452px 0px;
+	}
+
+	.image-container img{
+	    height: 430px;
+	    bottom: 0;
+	    left: 0;
+	    display: flex;
+	    flex-direction: column;
+	    padding-left: 500px;
+	}
+
+    .navlinks {
+    	display: none;
+    }
+
+    p.subtitle {
+		color: var(--secondary-color);
+		font-size: 12px;
+		line-height: 20px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	span.subititle {
+		color: #bc8314;
+	}
+
+	h1.titled {
+		line-height: 55px;
+		font-size: 20pt;
+		color: var(--secondary-color);
+		transition: all 0.3s ease-in-out;
+	}
+
+	h2.titled {
+		line-height: 55px;
+		font-size: 15pt;
+		color: var(--secondary-color);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.social {
+	    display: flex;
+	    position: absolute;
+	    padding: 230px 0px 0px 155px;
+	    flex-wrap: wrap;
+	    gap: 1.4rem;
+	}
+
+	.social a {
+	    display: grid;
+	    place-items: center;
+	    text-decoration: none;
+	    color: #bc8314;
+	    font-size: 1.5rem;
+	    border: 1.6px solid #bc8314;
+	    border-radius: 50%;
+	    padding: 0.39rem;
+	    text-align: center;
+	}
+
+	.social a:hover {
+	    color: #fff;
+	    background-color: #bc8314;
+	    box-shadow: 0 0 20px #bc8314;
+	    transition: all .3s ease-in-out;
+	}
+
+	.paragraph {
+	    color: var(--secondary-color);
+	    font-size: 12pt;
+	    justify-content: left;
+	    transition: all 0.3s ease-in-out;
+ 	}
+
+	body {
+		background: var(--primary-color);
+		transition: all .3s ease-in-out;
+	}
+	#about	{
+		height: 900px;
+	}
+
+	#services {
+		justify-content: center;
+		align-items: center;	
+	}
+	p.subtitle-phone {
+		padding: 0px 700px 0px 105px;
+		color: var(--secondary-color);
+		font-size: 10pt;
+		line-height: 3em;
+		transition: all 0.3s ease-in-out;
+	}
+}
